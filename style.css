@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 3px black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Liter&display=swap');
+body{ 
+    font-family: "Italiana", serif;
+    font-weight: 400;
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Liter&display=swap');
+body{ 
+    font-family: "Liter", serif;
+    font-weight: 400;
+      }
+      
+body{
+    background-color: darkred;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    padding: 15px 6%;
+    background-color:rgb(255, 255, 255);
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+ box-shadow: 0 2px 5px #000000;
+}
+.banner{
+    padding: 5% 3%;
+    color: black;
+    font-size:45px;  
+}
+.aaa2{
+    height:500px;
+}
+
+.post{
+    padding: 5px 5%;
+    text-align: center;
+    background-color:white;
+}
+.post>*{
+    display: inline-block;
+    width:300px;
+    font-size:35px;
+    vertical-align: middle;
+}
+.aaa{
+    height:500px;
+}
+#post3>div{
+    padding: 7px;
+    background-color: white;
+    font-size:35px;
+    text-align: center;
+    border: 3px solid black;
+}
+#konec{
+    padding:10% 20%;
+    background-color: darkred;
+    background-attachment: fixed;
+}
+#konec>div{
+    padding: 5px;
+    background-color: white;
+    font-size:20px;
+    text-align: center;
+    border: 2px solid black;
+}
